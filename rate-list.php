@@ -10,6 +10,6 @@ Updated on: 12/13/19
     $rater = new Rater; 
     for($i = 10; $i <= 1000; $i += 10){
         $val = $rater->rate($i);
-        echo($val . "\n");
+        echo($i . " -> " . $val . "\n");
     }
 ?>

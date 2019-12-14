@@ -1,6 +1,6 @@
 <?php
 /*
-rater-list.php: Calculates insurance quotes for values 10 -> 1000.
+rater-list.php: Calculates insurance quotes for values 10 -> 1000 (Multiples of 10).
 
 Author: Tyler Hargreaves
 Updated on: 12/13/19

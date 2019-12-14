@@ -32,7 +32,7 @@ function submit(){
                     document.getElementById("output").innerHTML = out.error;
                 }
                 else{
-                    document.getElementById("output").innerHTML = `Hello ${out.name}, your insurance quote is ${out.quote}.`;
+                    document.getElementById("output").innerHTML = `Hello ${out.name}, your insurance quote is $${out.quote}.`;
                 }
 
             }

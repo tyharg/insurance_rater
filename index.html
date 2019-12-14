@@ -1,16 +1,54 @@
+<!--
+  index.html: A Front-end UI to call rater-api.php and return an insurance quote.
 
-<h1>Insurance Rater</h1>
-<form>
-  Name: <input type="text" name="name" id="name"></input>
-  <br>
- Insurance Amount: <input type="text" name ="amt" id="amt"></input>
-  <br>
-  
-</form>
+  Author: Tyler Hargreaves
+  Updated On: 12/13/19
+
+-->
 
 
-  <button onclick="submit()">Submit </button>
+<html>
+  <head>
+    <style>
+      body{
+        font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif
+      }
 
-  <div id="output"></div>
+      #content{
+        margin:auto;
+        margin-top:200px;
+        padding:30px;
+        text-align:center;
+        width: 500px;
+        background-color:gainsboro;
+        border-radius: 5px;
+      }
 
-<script src="index.js"></script>
+      #output{
+        padding: 10px;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div id="content">
+        
+      <h1>Insurance Quoter</h1>
+
+        <form>
+          <input type="text" placeholder="Name" name="name" id="name"></input>
+          <br>
+          <input type="text" placeholder="Insurance Amount" name ="amt" id="amt"></input>
+          <br>
+        </form>
+
+        <button onclick="submit()">Submit </button>
+
+        <div id="output"></div>
+
+    </div>
+  </body>
+  <script src="index.js"></script>
+
+</html>

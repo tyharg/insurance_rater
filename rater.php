@@ -1,4 +1,11 @@
 <?php
+/*
+rater.php: Calculates insurance quote based on user input values.
+
+Author: Tyler Hargreaves
+Updated on: 12/13/19
+*/
+    
     class Rater{
 
         public function rate($amt) {
